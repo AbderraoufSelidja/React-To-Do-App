@@ -2,7 +2,7 @@ const Task = (props) => {
   return (
     <div
       className="task"
-      style={{ backgroundColor: props.isCompleted ? "green" : "white" }}
+      style={{ backgroundColor: props.isCompleted ? "green" : "white" , color: props.isCompleted ? "white" : "black"}}
     >
       <h3>{props.taskName}</h3>
       <div>
