@@ -51,6 +51,7 @@ input[type="text"] {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: .2s;
 }
 
 .task h3 {
